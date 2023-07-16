@@ -1,0 +1,6 @@
+---
+ motorCount: 3
+ netFunctionNames:
+   - toBase
+   - reverse
+   - notafunc
