@@ -1,0 +1,13 @@
+git clone https://github.com/jbeder/yaml-cpp.git
+cd yaml-cpp
+mkdir build
+cd build
+cmake -DYAML_BUILD_SHARED_LIBS=ON ..
+
+install windows 10 SDK all versions
+
+Create dllproject in visual studio
+then inside the new solution go to project->properties->configuration properties->vc++ directories->include directories: add include directories with the yaml-cpp include folder and python include folder
+then inside the new solution go to project->properties->configuration properties->vc++ directories->library directories: add the yaml-cpp lib directory and python libs directory
+project->properties->configuration properties->linker->input add additional dependencies "yaml-cpp.lib"
+after build is successful, in output folder, change the .dll extension to .pyd (make sure the file name is the same as the module name in pybind11)
