@@ -36,5 +36,6 @@ Prints are a bit messy, but Python menu still works.
 
 ## Conclusion:
 - Didn't get to the bonus question :(  
-- I struggled with the VS environment setup, linking, and building. I think it took me an overall 4 hrs, but next time I can follow the steps and be more efficient.  
+- I struggled with the VS environment setup, linking, and building. I think it took me an overall 4 hrs, but next time I can follow the steps and be more efficient.
+- Coding style and conventions are not something that I took into consideration when working on this task.
 - After all, I had a good time working on the task and enjoyed it very much, it took me around 10 hours to finish.
